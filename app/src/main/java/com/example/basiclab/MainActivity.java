@@ -62,6 +62,16 @@ public class MainActivity extends AppCompatActivity {
             Snackbar.make(findViewById(R.id.fab), "Second snackbar", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
         }
+
+        if (id == R.id.action1) {
+            Snackbar.make(findViewById(R.id.fab), "Action1 snackbar", Snackbar.LENGTH_LONG)
+                    .setAction("Action 1", null).show();
+        }
+
+        if (id == R.id.action2) {
+            Snackbar.make(findViewById(R.id.fab), "Action2 snackbar", Snackbar.LENGTH_LONG)
+                    .setAction("Actio 2n", null).show();
+        }
         return super.onOptionsItemSelected(item);
     }
 }

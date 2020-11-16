@@ -3,6 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="action_first">First Action</string>
     <string name="action_second">Second Action</string>
+    <string name="action_1">Action 1</string>
+    <string name="action_2">Action 2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
